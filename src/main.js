@@ -1,12 +1,17 @@
 import Vue from 'vue'
 import App from './App.vue'
 import store from './store'
-import { Carousel,CarouselItem } from 'element-ui'
-Vue.use(Carousel).use(CarouselItem)
+import router from './routes'
+
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+
+Vue.use(ElementUI)
 
 Vue.config.productionTip = false
 
 new Vue({
   render: h => h(App),
-  store
+  store,
+  router
 }).$mount('#app')
