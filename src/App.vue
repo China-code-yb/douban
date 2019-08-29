@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <zj-header></zj-header>
+    <Search></Search>
     <div class="mid-big">
       <mid-swipe></mid-swipe>
     </div>
@@ -12,12 +13,16 @@ import midSwipe from "./components/swipe";
 
 import ZjHeader from "./components/ZjHeader";
 
+import Search from "./components/search"
+
 export default {
   name: "app",
   components: {
     midSwipe,
 
-    ZjHeader
+    ZjHeader,
+
+    Search
   }
 };
 </script>
