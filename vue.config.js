@@ -1,0 +1,17 @@
+module.exports={
+    devServer:{
+        proxy:{
+            '/douban':{
+                target:'https://api.douban.com',
+                secure:false,
+                changeOrigin:true,
+                pathRewrite:{
+                    '^/douban':''
+                },
+                cookieDomainRewrite:{
+                    "*":"127.0.0.1"
+                },
+            },
+        }
+    }
+}
