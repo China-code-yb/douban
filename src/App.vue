@@ -2,8 +2,18 @@
   <div id="app">
     <zj-header></zj-header>
     <Search></Search>
+
+    <!-- 中间div 用于定宽居中 -->
     <div class="mid-big">
-      <mid-swipe></mid-swipe>
+
+      <!-- 左侧div 以轮播图为头 -->
+      <div class="big-left">
+        <mid-swipe></mid-swipe>
+      </div>
+
+      <!-- 右侧div 以豆瓣评分8问为头-->
+
+      
     </div>
   </div>
 </template>
@@ -13,7 +23,7 @@ import midSwipe from "./components/swipe";
 
 import ZjHeader from "./components/ZjHeader";
 
-import Search from "./components/search"
+import Search from "./components/search";
 
 export default {
   name: "app",
@@ -28,6 +38,9 @@ export default {
 </script>
 
 <style>
+.big-left{
+  width: 715px;
+}
 .mid-big {
   width: 1040px;
   /* height: 500px; */
