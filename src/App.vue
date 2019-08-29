@@ -12,7 +12,7 @@
       </div>
 
       <!-- 右侧div 以豆瓣评分8问为头-->
-      
+      <zj-side></zj-side>
       
     </div>
   </div>
@@ -24,6 +24,7 @@ import midSwipe from "./components/swipe";
 import ZjHeader from "./components/ZjHeader";
 
 import Search from "./components/search";
+import ZjSide from './components/ZjSide';
 
 export default {
   name: "app",
@@ -32,7 +33,8 @@ export default {
 
     ZjHeader,
 
-    Search
+    Search,
+    ZjSide
   }
 };
 </script>
@@ -46,5 +48,8 @@ export default {
   /* height: 500px; */
   /* background-color: red; */
   margin: 0 auto;
+  padding-top:40px ;
+  display: flex;
+  justify-content: space-between;
 }
 </style>
