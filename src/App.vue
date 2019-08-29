@@ -4,6 +4,7 @@
     <Search></Search>
     <div class="mid-big">
       <mid-swipe></mid-swipe>
+    <hotmovie></hotmovie>
     </div>
   </div>
 </template>
@@ -13,7 +14,10 @@ import midSwipe from "./components/swipe";
 
 import ZjHeader from "./components/ZjHeader";
 
-import Search from "./components/search"
+import Search from "./components/search";
+
+import Hotmovie from "./components/Hotmovie";
+
 
 export default {
   name: "app",
@@ -22,7 +26,9 @@ export default {
 
     ZjHeader,
 
-    Search
+    Search,
+
+    Hotmovie,
   }
 };
 </script>
