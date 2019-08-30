@@ -9,6 +9,8 @@
       <!-- 左侧div 以轮播图为头 -->
       <div class="big-left">
         <mid-swipe></mid-swipe>
+
+        <ZjHotTv></ZjHotTv>
       </div>
 
       <!-- 右侧div 以豆瓣评分8问为头-->
@@ -25,16 +27,16 @@ import ZjHeader from "./components/ZjHeader";
 
 import Search from "./components/search";
 import ZjSide from './components/ZjSide';
+import ZjHotTv from './components/ZjHotTv'
 
 export default {
   name: "app",
   components: {
     midSwipe,
-
     ZjHeader,
-
     Search,
-    ZjSide
+    ZjSide,
+    ZjHotTv
   }
 };
 </script>
@@ -45,8 +47,6 @@ export default {
 }
 .mid-big {
   width: 1040px;
-  /* height: 500px; */
-  /* background-color: red; */
   margin: 0 auto;
   padding-top:40px ;
   display: flex;

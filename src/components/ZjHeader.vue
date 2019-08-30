@@ -27,9 +27,7 @@
                                 <img src="https://img3.doubanio.com/dae/accounts/resources/2f48733/shire/assets/nav_doubanapp_6_qrcode.png" alt="">
                                 <div>iPhone · Android</div>
                             </div>
-
                         </div>
-                       
                     </li>
                     <li>登录/注册</li>
                 </ul>
