@@ -145,7 +145,7 @@ export default {
   color: #3377aa;
   border-radius: 2px;
 }
-.side-answer:hover > a {
+.side-answer>a:hover {
   background-color: #3377aa;
   color: #fff;
 }
@@ -308,5 +308,8 @@ export default {
 .side-advertising-three-text>p:nth-of-type(2){
     color: #999999;
 
+}
+.side-doulist-lis-right{
+  color: #999999;
 }
 </style>
