@@ -9,6 +9,7 @@
       <!-- 左侧div 以轮播图为头 -->
       <div class="big-left">
         <mid-swipe></mid-swipe>
+        <hot-movie></hot-movie>
       </div>
 
       <!-- 右侧div 以豆瓣评分8问为头-->
@@ -25,6 +26,7 @@ import ZjHeader from "./components/ZjHeader";
 
 import Search from "./components/search";
 import ZjSide from './components/ZjSide';
+import HotMovie from './components/hotmovie'
 
 export default {
   name: "app",
@@ -34,7 +36,8 @@ export default {
     ZjHeader,
 
     Search,
-    ZjSide
+    ZjSide,
+    HotMovie
   }
 };
 </script>

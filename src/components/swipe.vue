@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <el-carousel :interval="100000" arrow="always">
+    <el-carousel :interval="5000" arrow="always">
       <el-carousel-item
         v-for="item in hot_movie_lists?Math.ceil(hot_movie_lists.length/5):0"
         :key="item"
