@@ -12,17 +12,16 @@
       <!-- 左侧div 以轮播图为头 -->
       <div class="big-left">
         <mid-swipe></mid-swipe>
-<<<<<<< HEAD
-        <hot-movie></hot-movie>
-=======
-<<<<<<< HEAD
+
+        <hot-mv></hot-mv>
+
+
 
         <ZjHotTv></ZjHotTv>
-=======
+
         <hotmovie></hotmovie>
 
->>>>>>> 94a79ac23ed4eaa6b00e7ccfbb2bd31c87c6e81d
->>>>>>> 50b90299dbfaa0a2773091825d3884c50936ee19
+
       </div>
 
       <!-- 右侧div 以豆瓣评分8问为头-->
@@ -45,12 +44,12 @@ import Hotmovie from "./components/Hotmovie";
 
 
 import ZjSide from './components/ZjSide';
-<<<<<<< HEAD
-import HotMovie from './components/hotmovie'
-=======
+
+import HotMv from './components/HotMv'
+
 import ZjHotTv from './components/ZjHotTv'
 
->>>>>>> 50b90299dbfaa0a2773091825d3884c50936ee19
+
 
 export default {
   name: "app",
@@ -58,22 +57,18 @@ export default {
     midSwipe,
     ZjHeader,
     Search,
-<<<<<<< HEAD
+
     ZjSide,
-    HotMovie
-=======
-<<<<<<< HEAD
-    ZjSide,
-    ZjHotTv
-=======
+    HotMv,
+
+
+    ZjHotTv,
+
 
 
     Hotmovie,
 
-    ZjSide
 
->>>>>>> 94a79ac23ed4eaa6b00e7ccfbb2bd31c87c6e81d
->>>>>>> 50b90299dbfaa0a2773091825d3884c50936ee19
   }
 };
 </script>
